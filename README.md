@@ -1,50 +1,16 @@
-# vuepress-theme-reco-cli
+# 安装依赖 
 
-Blog generation tool for vuepress-theme-reco 
-
-## Version
-
-|Version|VuePress|VuePress-theme-reco|
-|-|:-:|:-:|
-|0.x|0.x|0.x|
-|1.x|1.x|1.x|
-
-## Experience
-
-```bash
-# create
-npx vuepress-theme-reco-cli init my-blog
-# or
-npm install  -g
-reco-cli init my-blog
-
-# install
-cd my-blog
-npm install
-
-# run
-npm run dev
-
-# build
-npm run build
-```
-
-**if yarn**
-
-```bash
-# create
-npx vuepress-theme-reco-cli init my-blog
-#or
-yarn global add vuepress-theme-reco-cli
-reco-cli init my-blog
-
-# install
-cd my-blog
 yarn install
 
-# run
+# 本地开发
+
 yarn dev
 
-# build
-yarn build
-```
+
+# 打包 
+
+yarn run build
+
+# 自动发布
+
+yarn run deploy

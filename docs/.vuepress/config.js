@@ -8,7 +8,8 @@ module.exports = {
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
     ['link', { rel: 'icon', href: `/favicon.ico` }],
     //增加manifest.json
-    ['link', { rel: 'manifest', href: '/manifest.json' }]
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['link', { rel: 'apple-touch-icon', href: '/img/logo.png' }]
   ],
   theme: 'reco',
   themeConfig: {
@@ -41,7 +42,7 @@ module.exports = {
     logo: '/head.png',
     // 搜索设置
     search: true,
-    searchMaxSuggestions: 10,
+    // searchMaxSuggestions: 10,
     sidebar: 'auto',
     // 最后更新时间
     lastUpdated: 'Last Updated',

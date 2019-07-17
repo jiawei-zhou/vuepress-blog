@@ -3,6 +3,7 @@
   "short_name": "朝风尘",
   "start_url": "index.html",
   "display": "standalone",
+  "description": "朝风尘的个人主页",
   "background_color": "#fff",
   "theme_color": "#3eaf7c",
   "icons": [
@@ -10,6 +11,15 @@
       "src": "/applogo.png",
       "sizes": "120x120",
       "type": "image/png"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web"
+    },
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
     }
   ]
 }
